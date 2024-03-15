@@ -32,13 +32,27 @@ header {
 	height: 10dvh;
 	width: 100dvw;
 	text-align: center;
-	font-size: x-small;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	
 }
+
+
+nav > a {
+	text-decoration: none;
+	background-color: var(--purple-heart-600);
+	color: white;
+	padding: 0.25em;
+	border-radius: 0.5em;
+}
+
+nav > a:hover {
+	background-color: var(--purple-heart-950);
+}
+
+
 footer {
 	background-color: var(--purple-heart-400);
 	height: 5dvh;
@@ -66,6 +80,7 @@ main > img {
 	width: 50dvw;
 	background-color: var(--purple-heart-950);
 	color: var(--purple-heart-100);
+	object-fit:cover;
 }
 
 main > p {
